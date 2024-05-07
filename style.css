@@ -1,0 +1,421 @@
+body{
+    margin: 0px;
+    padding: 0px;    
+    height: 10000px;
+    width: 100%;
+}
+html{
+    width: 100%;
+    height: 100%;
+}
+.haut{
+    width: 100%;
+    background-color: #ffffff;
+    height: 75px;
+    margin: 0px; 
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    position: fixed;
+    font-size: 16px;
+    z-index: 999;
+   
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+img{
+    margin-right: 1100px;
+    width : 75px;
+    height : 75px;
+}
+nav ul{
+    margin-right: 170px;
+    margin-top: 32px;
+}
+nav ul li{
+    list-style-type: none;
+    display: flex;
+    padding: 40px;
+    margin-left: 35px;
+}
+ul li a{
+    color: #000000;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+    color: #ff0000;
+    text-decoration: none;
+}
+.menu li{
+    float: right;
+    padding: 0px;
+    margin-right: 40px;
+    padding-left: 5px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu .rouge{
+    color: red;
+}
+header {
+    background-image: url(../img/IMG_1234\ \(1\)\ \(2\).jpg);
+    background-position: center;
+    height: 1240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.reservation{
+    border-radius: 17px;
+    border: 2px black solid;
+    height: 55px;
+    width: 180px;
+    background-color: #ffffff;
+    cursor: pointer;
+    background-size: cover;
+}
+.reservation:hover{
+    background-color: #a0a0a0;
+    color: #ffffff;
+    border-radius: 20px;
+    border: 2px rgb(39, 39, 39) solid;
+    height: 55px;
+    width: 180px;
+    cursor: pointer;
+    background-size: cover;
+}
+main{
+    height: 100px;
+}
+.titre1 h1{
+    margin-top: 150px;
+    text-align: center;
+}
+.asavoir {
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+}
+/**                                   block 1                                  **/
+.asavoir .block1{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    background-color: #000000;
+    width: 270px;
+    height: 125px;
+    color: #000000;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 50% 25%;
+    overflow: hidden;
+}
+.asavoir a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 80px;
+}
+.asavoir .block1 h1{
+    font-size: 30px;
+}
+.asavoir .block1 p{
+    top: 90px;
+    position: relative;
+    font-size: 19px;
+    font-weight: 900;
+}
+.asavoir .block1:hover p{
+    font-size: 19px;
+    font-weight: 900;
+}
+.asavoir .block1{
+    transition: 1s;
+}
+/**                                hover block 1                               **/
+
+.asavoir .block1:hover{
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    background-color: #000000;
+    width: 270px;
+    height: 500px;
+    color: #000000;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 90% 25%;
+    padding: 0px 17px;
+}
+.asavoir .block1:hover h3{
+   display: none;
+}
+
+/**                                   block 2                                  **/
+.asavoir .block2{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    width: 270px;
+    height: 125px;
+    color: #1a1a1a;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 50% 25%;
+    overflow: hidden;
+}
+.asavoir .block2 h1{
+    font-size: 30px;
+}
+
+.asavoir .block2{
+    transition: 1s;
+}
+/**                                hover block 2                               **/
+
+.asavoir .block2:hover{
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    width: 270px;
+    height: 500px;
+    color: #000000;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 90% 25%;
+    padding: 0px 17px;
+}
+.asavoir .block2:hover h3{
+    display: none;
+ }
+ .asavoir .block2 p{
+    top: 90px;
+    position: relative;
+    font-size: 19px;
+    font-weight: 900;
+}
+.asavoir .block2:hover p{
+    font-size: 19px;
+    font-weight: 900;
+}
+
+
+/**                                   block 3                                  **/
+.asavoir .block3{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    width: 270px;
+    height: 125px;
+    color: #000000;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 50% 25%;
+    overflow: hidden;
+}
+.asavoir .block3 h1{
+    font-size: 30px;
+}
+
+.asavoir .block3{
+    transition: 1s;
+}
+.asavoir .block3 p{
+    top: 90px;
+    position: relative;
+    font-size: 19px;
+    font-weight: 900;
+}
+.asavoir .block3 h4{
+    top: 90px;
+    position: relative;
+    font-size: 21px;
+    
+}
+/**                                hover block 3                               **/
+
+.asavoir .block3:hover{
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    width: 270px;
+    height: 500px;
+    color: #000000;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 90% 25%;
+    padding: 0px 17px;
+}
+.asavoir .block3:hover h3{
+    display: none;
+ }
+ 
+.asavoir .block3:hover p{
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.asavoir .block3:hover h4{
+    font-size: 21px;
+    font-weight: 900;
+}
+
+
+/**                                    block 4                                  **/
+.asavoir .block4{
+    border: 1px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    width: 270px;
+    height: 125px;
+    color: #1a1a1a;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 50% 25%;
+    overflow: hidden;
+}
+.asavoir .block4 h1{
+    font-size: 30px;
+}
+
+.asavoir .block4{
+    transition:  1s;
+}
+/**                                hover block 4                               **/
+
+.asavoir .block4:hover{
+    border: 3px rgb(0, 0, 0) solid;
+    border-radius: 16px;
+    width: 270px;
+    height: 500px;
+    color: #000000;
+    text-align: center;
+    background-image: url(../img/ciel.jpg);
+    background-position: 90% 25%;
+    padding: 0px 17px;
+}
+.asavoir .block4:hover h3{
+    display: none;
+ }
+ 
+
+
+/**                                  fin des blocks                                **/
+
+/**                                  reclangle gris                                **/
+.rectangle{
+    margin-top: 250px;
+    border: 5px rgb(255, 255, 255) solid;
+    width: 100%;
+    height: 700px;
+    color: #ffffff;
+
+    background-color: #dee7ff;
+}
+.rectangle iframe{
+    margin-top: 35px;
+    margin-left: 65px;
+    border: 2px black solid;
+}
+.rectangle h1{
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 19px;
+    color: #000000;
+}
+.rectangletitre{
+    background-color: #ffffff;
+    border: black 1px solid;
+    width: 700px;
+    height: 100px;
+    margin-left: 64px;
+    margin-top: 57px;
+}
+
+/**               début css carousel               **/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  gap: 60px;
+  margin-top: 100px;
+    
+
+  > div {
+    flex: 0 0 190px;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+  
+
+    &:nth-of-type(1) {
+      background: url("https://images.pexels.com/photos/1845208/pexels-photo-1845208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(2) {
+      background: url("https://images.pexels.com/photos/36469/woman-person-flowers-wreaths.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(3) {
+      background: url("https://images.pexels.com/photos/1468379/pexels-photo-1468379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+    &:nth-of-type(4) {
+      background: url("https://images.pexels.com/photos/247322/pexels-photo-247322.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+        no-repeat 50% / cover;
+    }
+
+    .content {
+      font-size: 1.5rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      opacity: 0;
+      flex-direction: column;
+      height: 100%;
+      justify-content: flex-end;
+      background: rgb(2, 2, 46);
+      background: linear-gradient(
+        0deg,
+        rgba(2, 2, 46, 0.6755077030812324) 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+      transform: translatey(100%);
+      transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+      visibility: hidden;
+
+      span {
+        display: block;
+        margin-top: 5px;
+        font-size: 1.2rem;
+      }
+    }
+
+    &:hover {
+      flex: 0 0 250px;
+      box-shadow: 1px 3px 15px #7645d8;
+      transform: translatey(-30px);
+    }
+
+    &:hover .content {
+      opacity: 1;
+      transform: translatey(0%);
+      visibility: visible;
+    }
+  }
+}
